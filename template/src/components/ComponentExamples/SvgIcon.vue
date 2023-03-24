@@ -19,7 +19,7 @@ export default {
           <svg-icon :class="$style.svg" :icon="name" />
           <div :class="$style.name">{{ name }}</div>
         </div>
-        <div slot="content">{{ `&lt;svg-icon icon="${name}" /&gt;` }}</div>
+        <div slot="content">{{ `svg-icon icon="${name}"` }}</div>
       </el-tooltip>
     </div>
   </div>
